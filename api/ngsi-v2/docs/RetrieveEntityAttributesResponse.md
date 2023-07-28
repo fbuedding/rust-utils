@@ -1,0 +1,13 @@
+# RetrieveEntityAttributesResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**temperature** | [**serde_json::Value**](.md) |  | 
+**humidity** | [**serde_json::Value**](.md) |  | 
+**location** | [**serde_json::Value**](.md) |  | 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
