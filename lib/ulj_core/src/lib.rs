@@ -14,6 +14,7 @@ pub fn parse_ul(ulj: String) -> Value {
         ulj_splitted = (&ulj_splitted[1..]).to_vec();
     }
 
+
     for i in (0..ulj_splitted.len()).step_by(2) {
         if let Ok(x) = ulj_splitted[i + 1].parse::<i64>() {
             map.insert(ulj_splitted[i].into(), x.into());
